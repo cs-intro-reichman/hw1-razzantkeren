@@ -10,7 +10,7 @@ public class FVCalc {
 		double revach = Math.pow(tp, y);
 		System.out.println(revach);
 		double totalafter = revach*total;
-		System.out.println("After "+ y + " years, $" + total + " saved at " + p +"% will yield $" + ((int)totalafter)  );
+		System.out.println("After "+ y + " years, a $" + total + " saved at " + p +"% will yield $" + ((int)totalafter)  );
 
 		
 	}

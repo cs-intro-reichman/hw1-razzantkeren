@@ -44,12 +44,14 @@ public class TimeFormat {
 
 				
 			}
+			else{
 			if (minutes<10) {
 			System.out.println(hours+ ":0"+ minutes+ " AM");
 		}
 			else{
 				System.out.println(hours+":"+minutes+ " AM");
 			}
+		}
 	}
 		
 	}
